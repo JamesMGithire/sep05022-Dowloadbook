@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         whenSearch.style.display="block";
         finder(e.target.value);
     });
-    let lib = `http://localhost:3000/library`;
+    let lib = `https://jamesmgithire.github.io/sep05022-Dowloadbook/lib.json`;
     let liClicked = "margin-left: 1rem; width: 400px;padding-left: 0.1rem;padding-right: 0.1rem;margin-top:-0.9rem;";
     let detailsShown = "visibility:visible;left:auto;right:1rem;width:400px;padding-left: 0.1rem;padding-right: 0.1rem;";
     let liReturn = "transition:none;margin: auto;width:600px;padding-left: 2rem;padding-right: 2rem;";
